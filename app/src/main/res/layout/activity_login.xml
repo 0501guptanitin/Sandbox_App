@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kainskep"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Empowering Values by Innovative Thinking"
+        android:layout_marginLeft="60dp"/>
+
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:hint="Email"
+        android:id="@+id/signin_email"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"/>
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:id="@+id/signin_password"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center_vertical">
+
+    <Button
+        android:id="@+id/signin_back"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="40dp"
+        android:text="Back"
+        app:backgroundTint="#808080" />
+
+    <Button
+        android:id="@+id/signin_submit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="Submit"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="70dp"
+        />
+   </LinearLayout>
+
+</LinearLayout>
